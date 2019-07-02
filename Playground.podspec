@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'Playground.framework'
   #s.requires_arc = true
   
-   #s.resource_bundles = {
-    # 'Playground' => ['Assets/*.ttf']
-   #}
+   s.resource_bundles = {
+    'Playground' => ['Assets/*.ttf']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit','Foundation'
