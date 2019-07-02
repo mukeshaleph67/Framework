@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'https://github.com/mukeshaleph67/Framework/blob/master/Playground.zip'
   s.ios.vendored_frameworks = 'Playground.framework'
+  s.requires_arc = true
   
    s.resource_bundles = {
      'Playground' => ['Assets/*.ttf']
