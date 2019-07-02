@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-
+  s.source_files = 'https://github.com/mukeshaleph67/Framework/blob/master/Playground.zip'
   s.ios.vendored_frameworks = 'Playground.framework'
   
    s.resource_bundles = {
